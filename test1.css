@@ -1,0 +1,25 @@
+#field{
+    border: 2px solid black;
+    box-sizing:content-box;
+    width: 320px;
+    height: 320px;
+}
+
+.chess-block {
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+
+.bg-black{
+    background: black;
+}
+
+.active{
+    background-image: url('./32658.png');
+    background-color: orange;
+    background-size: contain;
+}
+.green{
+    background: green;
+}
